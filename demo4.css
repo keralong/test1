@@ -1,0 +1,22 @@
+        div{
+            align-items: center;
+            background-color: aqua;
+            padding: 2rem;
+            box-sizing: border-box;
+            width: 33.33%;
+            position: absolute;
+            left: 50%;/*左上角移到50%*/
+            top: 50%;/*左上角移到50%*/
+            transform: translate(-50%, -50%);/*左上角移到往左上移自身的50%，即将中心点对齐*/
+            border-radius: 50px;  /*圆角*/
+        }
+        .main{
+            text-align: center; /*文字居中*/
+        }
+        .button{
+            display: block;  
+            margin: 0 auto; /*变成块级自己调*/
+            padding: 0.5rem 1rem; 
+            border: 5px solid black;
+            border-radius: 10px; 
+        }
